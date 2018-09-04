@@ -7,7 +7,7 @@
     Public Sub New(Nombre As String, Base As UShort, Altura As UShort)
         MyBase.New(Nombre)
         Me.Base = Base
-        Me._altura = Altura
+        Me.Altura = Altura
 
     End Sub
 
