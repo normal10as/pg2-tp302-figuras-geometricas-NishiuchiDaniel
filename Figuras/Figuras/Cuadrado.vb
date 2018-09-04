@@ -3,7 +3,7 @@
 
     Private _lado As UShort
 
-    Public Sub New(Nombre, Lado)
+    Public Sub New(Nombre As String, Lado As UShort)
         MyBase.New(Nombre)
         Me.Lado = Lado
     End Sub

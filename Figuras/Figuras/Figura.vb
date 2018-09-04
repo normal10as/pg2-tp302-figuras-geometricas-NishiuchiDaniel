@@ -10,7 +10,7 @@
         End Set
     End Property
 
-    Public Sub New(Nombre)
+    Public Sub New(Nombre As String)
         Me.Nombre = Nombre
     End Sub
 

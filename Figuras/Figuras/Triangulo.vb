@@ -5,7 +5,7 @@
     Private _altura As UShort
 
 
-    Public Sub New(Nombre, Base, Altura)
+    Public Sub New(Nombre As String, Base As UShort, Altura As UShort)
         MyBase.New(Nombre)
         Me.Base = Base
         Me.Altura = Altura
